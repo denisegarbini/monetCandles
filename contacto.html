@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <div class="grilla3">
+        <header class="header">
+            <a href="./index.html"><img class="logo" src="./img/logoBasico.png" alt="Logo Monet"></a>
+            <ul class="nav__links">
+                <li class="nav__link"><a class="navlink" href="./index.html">Inicio</a></li>
+                <li class="nav__link"><a class="navlink" href="./nosotros.html">Nosotros</a></li>
+                <li class="nav__link"><a class="navlink" href="./productos.html">Productos </a></li>
+                <li class="nav__link"><a class="navlink" href="./locales.html">Locales </a></li>
+                <li class="nav__link"><a class="navlink" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </header>
+        <main class="main contactos">
+            <section class="section5">
+                <h1>Contacto</h1>
+
+                <h3>Dejanos tu mensaje y en 48 hs te estaremos contestando</h3>
+            </section>
+            <section class="section6">
+                <form action="#" method="GET">
+
+                    <input class="formulario" type="text" placeholder="Ingresa tu nombre" name="Nombre" required
+                        label="enviar-nombre">
+                    <br>
+                    <input class="formulario" type="text" placeholder="Ingresa tu apellido" name="Apellido" required>
+                    <br>
+                    <input class="formulario" type="tel" placeholder="Ingresa tu teléfono" name="Tel">
+                    <br>
+                    <input class="formulario" type="email" placeholder="Ingresa tu email" name="email" required>
+                    <br>
+                    <input class="formulario comentario" type="text" placeholder="Mensaje" name="mensaje" required>
+                    <div>
+                        <h4>Deseas recibir información sobre nuestras ofertas?</h4>
+                        <p class="opcionestexto">Sí</p>
+                        <input class="opciones" type="radio" value="si" name="acepta">
+                        <p class="opcionestexto">No</p>
+                        <input class="opciones" type="radio" value="no" name="acepta">
+                    </div>
+
+                    <div>
+                        <p><em>Sabías que cada una de nuestras velas tiene una propiedad especial? Te gustaría conocer
+                                más sobre
+                                alguna?</em></p>
+                        <p class="opcionestexto">Sí</p>
+                        <input class="opciones" type="checkbox" name="articulo" value="Si">
+
+                        <p><em>Queremos saber cuál! Te vamos a enviar más información para que conozcas QUÉ la hace
+                                única:
+                            </em></p>
+                        <select class="opciones" name="interes">
+                            <option class="opciones" value="1">Lavanda</option>
+                            <option class="opciones" value="2">Manzana y canela</option>
+                            <option class="opciones" value="3">Pomelo rosado</option>
+                            <option class="opciones" value="4">Jazmin</option>
+                            <option class="opciones" value="5">Vainilla y coco</option>
+                        </select>
+
+                    </div>
+
+                    <input class="enviar" type="submit" for="enviar-nombre" value="ENVIAR">
+
+
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="marca">© Monet</p>
+            <a href="https://www.instagram.com/monet.candles/"> <img src="./img/redes/instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/"> <img src="./img/redes/facebook.png" alt="facebook"></a>
+        </footer>
+    </div>
+
+</body>
+
+</html>
